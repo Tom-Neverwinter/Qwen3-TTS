@@ -1,24 +1,43 @@
+# Python virtual environment - contains installed packages
+venv/
+venv_*/
+env/
+ENV/
+
+# Python cache files
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-.idea/
-.vscode/
-venv/
-env/
+
+# Generated outputs - user-specific audio files
+outputs/
+
+# User voice library - personal voice samples
+voices/
+
+# Downloaded models - large files, should be downloaded separately
+models/
+
+# SSL certificates - user-specific security files
+.cert/
+
+# User configuration
+config.json
+
+# Temporary files
+*.tmp
+*.log
+pip_list.txt
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Installers
+*.exe
+*.msi
+*.safetensors
+*.bin
+*.pth
